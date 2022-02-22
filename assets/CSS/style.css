@@ -58,7 +58,7 @@ header nav ul li a {
     background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../images/computerbackground.jpg");
     display: flex;
-    justify-content: left;
+    justify-content: right;
     flex-wrap: wrap;
     align-items: flex-end;
 }
@@ -98,6 +98,7 @@ header nav ul li a {
     background-image: url(../images/old\ hero-bg.jpeg);
     background-size: cover;
     background-position: center;
+    border-radius: 40px 10px;
 }
 .Horiseon {
     color: var(--secondary-color);
@@ -109,6 +110,7 @@ header nav ul li a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/horiseon.jpeg");
     background-size: cover;
     background-position: center;
+    border-radius: 40px 10px;
 }
 .Crystal-springs {
     color: var(--secondary-color);
@@ -120,6 +122,7 @@ header nav ul li a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Camp.jpeg");
     background-size: cover;
     background-position: center;
+    border-radius: 40px 10px;
 }
 .Zion-cp {
     color: var(--secondary-color);
@@ -131,6 +134,7 @@ header nav ul li a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/church.jpg");
     background-size: cover;
     background-position: top;
+    border-radius: 40px 10px;
 }
 .Streight-top-music {
     color: var(--secondary-color);
@@ -142,6 +146,7 @@ header nav ul li a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/record.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 40px 10px;
 }
 
 #my-training {
@@ -161,7 +166,7 @@ header nav ul li a {
 .training h2 {border-right: 8px solid var(--tertiary-color);
     font-size: 32px;
     padding: 10px;
-    margin: 0 20px;
+    margin: 20px 20px;
 
 }
 .training p {
@@ -187,7 +192,7 @@ header nav ul li a {
     border-right: 8px solid var(--tertiary-color);
     font-size: 32px;
     padding: 26px;
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 .about p {
     font-size: 18px;
@@ -209,7 +214,7 @@ header nav ul li a {
     border-right: 8px solid var(--tertiary-color);
     font-size: 32px;
     padding: 10px;
-    margin: 0 20px;
+    margin: 20px 20px;
 
 }
 .contact a {
@@ -222,7 +227,25 @@ footer {
     background-position: center;
     color: var(--secondary-color);
     Margin: auto;
-    width: 60%;
+    width: 100%;
     padding: 20px;
     justify-content: flex-end;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header{
+    justify-content: center;
+    position: relative;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .sites {
+        width: 100%;
+    }
+.abouttext p {
+    font-size: 16px;
+
+}
 }
