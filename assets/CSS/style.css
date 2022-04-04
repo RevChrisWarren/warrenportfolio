@@ -95,14 +95,29 @@ header nav ul li a:hover {
 .sites h3 a {
     color:whitesmoke;
 }
-.run-buddy {
+.national-park {
     color: var(--secondary-color);
     font-size: 24px;
     border: 2px solid rgba(0, 0, 0, 0.8);
     margin: 20px;
     width: 80%;
     padding: 80px;
-    background-image: url(../images/old\ hero-bg.jpeg);
+    background-image: url("../images/matthew-smith-rFBA42UFpLs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px 10px;
+}
+.national-park a:hover {
+    color:rgb(71, 208, 226);}
+
+.run-buddy {
+    color: var(--secondary-color);
+    font-size: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 45%;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/old\ hero-bg.jpeg");
     background-size: cover;
     background-position: center;
     border-radius: 40px 10px;
@@ -110,11 +125,26 @@ header nav ul li a:hover {
 .run-buddy a:hover {
     color:rgb(71, 208, 226);
 }
+.dayscheduler {
+    color: var(--secondary-color);
+    font-size: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 45%;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/SchedulerSS.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px 10px;
+}
+.dayscheduler a:hover {
+    color:rgb(71, 208, 226);
+}
 .Horiseon {
     color: var(--secondary-color);
     font-size: 24px;
     border: 2px solid rgba(0, 0, 0, 0.8);
-    margin: 20px 20px 20px 60px;
+    margin: 20px;
     width: 45%;
     padding: 40px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/horiseon.jpeg");
@@ -125,43 +155,37 @@ header nav ul li a:hover {
 .Horiseon a:hover {
     color:rgb(71, 208, 226);
 }
-.Crystal-springs {
+
+.password {
     color: var(--secondary-color);
     font-size: 24px;
     border: 2px solid rgba(0, 0, 0, 0.8);
     margin: 20px;
     width: 45%;
     padding: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Camp.jpeg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 40px 10px;
-}
-.Zion-cp {
-    color: var(--secondary-color);
-    font-size: 24px;
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    margin: 20px 20px 20px 60px;
-    width: 45%;
-    padding: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/church.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/PasswordGeneratorScreen.jpeg");
     background-size: cover;
     background-position: top;
     border-radius: 40px 10px;
 }
-.Streight-top-music {
+.password a:hover {
+    color:rgb(71, 208, 226);
+}
+.weatherapp {
     color: var(--secondary-color);
     font-size: 24px;
     border: 2px solid rgba(0, 0, 0, 0.8);
     margin: 20px;
     width: 45%;
     padding: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/record.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/WeatherApp.png");
     background-size: cover;
     background-position: center;
     border-radius: 40px 10px;
 }
-
+.weatherapp a:hover {
+    color:rgb(71, 208, 226);
+}
 #my-training {
     display: flex;
     flex-wrap: wrap;
